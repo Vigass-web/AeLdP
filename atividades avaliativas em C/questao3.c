@@ -7,7 +7,10 @@ int main() {
 
     printf("Digite sua idade: ");
     scanf("%hd", &idade);
-
+    if(idade < 0) {
+    printf("Oxi,pode isso aqui não,digite um numero positivo");
+    return 0;
+}
     printf("Digite o montante a depositar: ");
     scanf("%d", &montante);
 
@@ -20,4 +23,5 @@ int main() {
 
     return 0;
 }
+
 
