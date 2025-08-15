@@ -32,11 +32,12 @@ int main() {
             resultado = num1 / num2;
             printf("Resultado: %.2f\n", resultado);
         } else {
-            printf("Erro: Divisão por zero!\n");
+            printf("Erro: Divisão por zero\n");
         }
     } else {
-        printf("Opção inválida.\n");
+        printf("Opção inválida\n");
     }
 
     return 0;
 }
+
